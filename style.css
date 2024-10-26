@@ -171,6 +171,11 @@ button{
                 display: flex;
                 flex-direction: column;
                 gap: 20px; 
+                
+                & img{
+                    border: 1px solid rgb(193, 191, 191);
+                    border-radius: 25px;
+                }
             }
 
             & div:nth-child(2) {
@@ -296,7 +301,7 @@ button{
     }
 
     .navbar{
-        gap: 40px;
+        gap: 25px;
     }
 
 
@@ -324,6 +329,7 @@ button{
     
         .bg-track{
             position: absolute;
+            width: 100%;
             /* z-index: -1; */
             /* left: 0; */
             /* top: 10%; */
