@@ -295,6 +295,11 @@ button{
         
     }
 
+    .navbar{
+        gap: 40px;
+    }
+
+
     .banner-section{
         padding: 60px 16px;
         position: relative;
